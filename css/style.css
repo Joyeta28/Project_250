@@ -233,7 +233,10 @@ p{
     font-size: large;
 }
 
-
+.rightnav button a{
+    text-decoration: none;
+    color: inherit;
+}
 .landing-btn{
     background-color: aliceblue;
 }

@@ -63,5 +63,10 @@
   background-color: #a5a5f7;
   border-color: white;
   min-width: 100px;
+  cursor: pointer;
   border: none;
 }
+.sign input[type="submit"]:hover{
+    background-color: bisque;
+}
+
