@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 100%;
+    height: 80vh;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-image: url('head.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #cce4f7;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    height: 100%;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.sidebar .user-icon img {
+    width: 100px;  
+    height: 100px; 
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.sidebar .registration-number {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    background-color: #66b3ff;
+    color: white;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.dashboard-header h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e4f1fc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #4c6ef5;
+}
+
+.profile-info {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.profile-info p.user-name {
+    font-size: 25px; 
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.profile-info p {
+    font-size: 20px; 
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.profile-info input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.profile-info label {
+    font-weight: bold;
+    color: #4c6ef5;
+}
+
+.profile-info span {
+    font-weight: normal;
+    color: #333;
+}
+
+.edit-profile {
+    background-color: #4c6ef5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: auto; 
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.edit-profile:hover {
+    background-color: #3b5bbf;
+}
