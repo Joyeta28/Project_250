@@ -1,0 +1,67 @@
+.techhelp{
+    height: 5vh;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.signUp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(133, 162, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signup, .login{
+    text-decoration: none;
+}
+.sign{
+    background-color: #0f345c;
+    padding: 60px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    
+    
+}
+.sign h2{
+    text-align: center;
+    flex-wrap: 100%;
+    color: #d7e4f1;
+    margin-bottom: 20px;
+}
+.para{
+    text-align: center;
+    color: #87c7ec;
+    margin-bottom: 30px;
+}
+.sign label{
+    display: flex;
+    font-weight: 20;
+    color: white;
+    margin-bottom: 30px;
+    gap: 8px;
+}
+
+.sign input[type="email"] , input[type = "password"],input[type = "pass"]{
+     width: 100%;      
+    height: 35px;      
+    box-sizing: border-box; 
+    padding: 5px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+}
+
+.sign input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #a5a5f7;
+  border-color: white;
+  min-width: 100px;
+  border: none;
+}

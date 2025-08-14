@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: rgb(133, 162, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techhelp{
+    height: 5vh;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.selectionPage{
+    padding: 80px 60px;
+    background-color:  #0f345c;
+    border-radius: 20px;
+    max-width: 400px;
+}
+.selectionPage h2{
+    text-align: center;
+    color: rgb(238, 241, 243);
+    margin-bottom: 30px;
+}
+.selectionPage button {
+    width: 47%;
+    padding: 20px; 
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; 
+    border-radius: 20px;
+}
+.selectionPage .button-group {
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+}
+
+.selectionPage .client:hover{
+    background-color: blanchedalmond;
+}
+.selectionPage .technician:hover{
+    background-color: blanchedalmond;
+}
