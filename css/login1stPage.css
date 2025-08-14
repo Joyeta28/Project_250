@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    background-color: rgb(133, 162, 243);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;

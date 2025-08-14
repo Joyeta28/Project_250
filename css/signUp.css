@@ -6,7 +6,7 @@
 }
 .signUp{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(133, 162, 243);
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     display: flex;
@@ -23,18 +23,23 @@
     border-radius: 12px;
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
     max-width: 350px;
-    
+    width: 350px;
+    height: 500px;
+    align-items: center;
+   
+    justify-content: center;
     
 }
+
 .sign h2{
     text-align: center;
     flex-wrap: 100%;
-    color: #d7e4f1;
+    color: #ebeef0;
     margin-bottom: 20px;
 }
 .para{
     text-align: center;
-    color: #87c7ec;
+    color: #e6e9eb;
     margin-bottom: 30px;
 }
 .sign label{
