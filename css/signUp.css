@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .techhelp{
     height: 5vh;
     margin: 0 auto;
     display: block;
     margin-bottom: 20px;
+}
+.tec{
+    background: linear-gradient(to left,#1258a3,#1258a3);
 }
 .signUp{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
