@@ -25,7 +25,6 @@
                 <li><a href="#" class="active">Dashboard</a></li>
                 <li><a href="#">Available Tasks</a></li>
                 <li><a href="#">My Tasks</a></li>
-                <!-- Fixed Log Out link -->
                 <li><a href="logout.html">Log Out</a></li>
             </ul>
         </div>
@@ -38,15 +37,22 @@
                 <div class="technician-img">
                     <img src="img/user.png" alt="Technician Image">
                 </div>
-                <div class="technician-info">
-                    <p class="technician-name"><strong>TechnicianX</strong></p> 
-                    <p><strong>Email Address</strong></p>
-                    <input type="email" value="xyz@gmail.com" disabled />
-                    <p><strong>Phone Number</strong></p>
-                    <input type="text" value="+880 17 XXXX XXXX" disabled />
-                </div>
-                <button class="edit-profile">Edit Profile</button>
-            </div>
+                
+             <form>
+                    <div class="technician-info">
+                        <p class="technician-name"><strong>TechnicianX</strong></p>
+
+                        <label for="email" class="email">Email
+                            <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+                        </label>
+
+                        <label for="number" class="number">Phone number
+                            <input type="tel" id="number" name="number" placeholder="1234XXXXXX0">
+                        </label>
+                    </div>
+
+                    <button class="edit-profile" type="submit">Edit Profile</button>
+                </form>
 
             <div class="technician-stats">
                 <div class="stat-box problems-accepted">

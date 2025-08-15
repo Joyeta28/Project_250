@@ -46,7 +46,7 @@
 }
 
 .para {
-    color: #f1f1f1;      
+    color: #fff;      
     margin-bottom: 30px;
     font-size: 0.95rem;
 }
@@ -79,7 +79,7 @@
     margin: 1em auto;
     height: 2.5em;
     font-size: 1rem;
-    background-color: #8ab6f9;
+    background-color: #204a88;
     color: white;
     border-radius: 20px;
     cursor: pointer;
