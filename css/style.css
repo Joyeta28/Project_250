@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 html {
     scroll-behavior: smooth;
 }
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -16,74 +16,79 @@ body{
     padding: 8px 10px;
     background: linear-gradient(to right,#004aad,#c96be5);
     top: 0;
-    
 }
-.leftnav{
+.leftnav {
     display: flex;
     align-items: center;
 }
-.logo img{
+.logo img {
     height: 50px;
     margin-right: 30px;
+    border-radius: 12px; 
 }
-.nav-list{
+.nav-list {
     list-style: none;
     display: flex;
     gap: 60px;
     width: 100%;
 }
-.nav-list li a{
+.nav-list li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     cursor: pointer;
     width: 70%;
 }
-.nav-list li a:hover{
+.nav-list li a:hover {
     color: yellow;
 }
-.rightnav{
+.rightnav {
     display: flex;
     gap: 20px;
 }
-.rightnav button{
+.rightnav button {
     padding: 12px 16px;
-    background-color: yellow;
+    background-color: lightblue;  
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-.rightnav button:hover{
-    background-color: orange;
+.rightnav button:hover {
+    background-color: blue;  
+    color: white;
+}
+.rightnav button a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.intro{
+.intro {
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     background-color: #cce4f7;
     padding: 40px 20px;
     padding-right: 80px;
 }
-p{
-    color:black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:medium;
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
-.welcome{
+.welcome {
     text-align: center;
     font-style: italic;
     font-size: larger;
     margin-bottom: 20px;
 }
-.description{
+.description {
     text-align: center;
 }
-.getstarted{
+.getstarted {
     text-align: center;
     margin-top: 25px;
 }
-.btn{
+.btn {
     color: rgb(8, 31, 36);
     background-color: white;
     border: none;
@@ -91,49 +96,46 @@ p{
     font-weight: 100;
     padding: 10px 16px;
     cursor: pointer;
-    
 }
-.btn:hover{
+.btn:hover {
     background-color: yellow;
 }
-.login{
+.login {
     text-decoration: none;
     color: black;
 }
-.leftintro{
+.leftintro {
     flex: 1;
     padding: 100px;
     margin-right: 20px;
-    
 }
-.rightpic{
+.rightpic {
     background-color: aliceblue;
     align-items: center;
     display: flex;
     justify-content: center;
-   overflow: hidden;
-     border-radius: 20px;
+    overflow: hidden;
+    border-radius: 20px;
 }
-.laptop{
+.laptop {
     width: 90%;
     max-width: 400px;
-     padding: 20px 30px;
+    padding: 20px 30px;
 }
-.services{
+.services {
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     padding: 40px 20px 40px 40px;
     padding-right: 80px;
 }
-.left{
+.left {
     display: flex;
-     overflow: hidden;
-     margin: 0;
-     border: none;
+    overflow: hidden;
+    margin: 0;
+    border: none;
 }
-
-.tech{
+.tech {
     width: 40%;
     margin: 0;
     border: none;
@@ -141,20 +143,18 @@ p{
     border-bottom-right-radius: 20px;
     padding-bottom: 100px;
     overflow: hidden;
-    
 }
-.worker{
+.worker {
     width: 50%;
     padding-top: 100px;
     margin: 0;
- 
     object-fit: cover;
 }
 .worker {
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
 }
-.heading{
+.heading {
     color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -162,20 +162,20 @@ p{
     font-weight: bold;
     padding-bottom: 30px;
 }
-.des{
+.des {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     line-height: 2;
     font-size: large;
 }
-.about{
+.about {
     background-color: #cce4f7;
     text-align: center;
     padding: 40px 50px;
     padding-bottom: 5%;
 }
-.headabt{
+.headabt {
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -183,65 +183,58 @@ p{
     font-weight: bold;
     color: rgb(10, 10, 10);
 }
-.abt{
+.abt {
     line-height: 2;
     font-size: large;
 }
-.how-it-works{
+.how-it-works {
     padding: 40px 50px;
-
 }
-.hiw{
+.hiw {
     text-align: center;
     color: black;
-     padding-top: 2%;
+    padding-top: 2%;
     padding-bottom: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     font-weight: bold;
 }
-.list{
+.list {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     line-height: 2;
     padding-bottom: 5%;
     margin-left: 2%;
 }
-.contact h3{
+.contact h3 {
     text-align: center;
     color: aliceblue;
     margin-bottom: 10px;
 }
-.contact h2{
+.contact h2 {
     text-align: center;
     color: aliceblue;
     flex-basis: 100%;
 }
-.locm.office{
+.locm.office {
     color: aliceblue;
     padding-bottom: 5%;
 }
-
-.contact{
-    background-color:  #0f345c;
+.contact {
+    background-color: #0f345c;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     position: relative;
     padding: 60px 20px;
     gap: 80px;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .contact p {
     color: aliceblue;
     text-align: center;
     font-size: large;
 }
-
-.rightnav button a{
-    text-decoration: none;
-    color: inherit;
-}
-.landing-btn{
+.landing-btn {
     background-color: aliceblue;
 }

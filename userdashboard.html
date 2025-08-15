@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>User Dashboard</title>
-    <link rel="stylesheet" href="userdashboard.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/userdashboard.css" />
 </head>
 <body>
     <header></header>
+
     <div class="container">
         <div class="sidebar">
             <div class="user-icon">
-                <img src="user.png" alt="User Icon">
+
+                <img src="img/user.png" alt="User Icon">
             </div>
             <div class="registration-number">
-                <strong>User</strong> 
+                <strong>User</strong>
             </div>
             <ul>
                 <li><a href="#" class="active">Dashboard</a></li>
                 <li><a href="#">Post a Problem</a></li>
                 <li><a href="#">My Posts</a></li>
-                <li><a href="#">Log Out</a></li>
+                <li><a href="logout.html">Log Out</a></li>
             </ul>
         </div>
 
         <div class="main-content">
             <div class="dashboard-header">
-                <h1>User Dashboard</h1>
+                <h1>Dashboard</h1>
             </div>
+
             <div class="profile-box">
                 <div class="profile-img">
-                    <img src="user.png" alt="User Profile">
+                    <img src="img/user.png" alt="User Profile">
                 </div>
+
                 <form>
-                <div class="profile-info">
-                    <p class="user-name"><strong>User name</strong></p> 
-                    <label for="email" class="emailad">Email Address
-                        <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
-                    </label>
-                    <label for="Department" class="dept">Department
-                        <input type="text" id="Department" name="Department" placeholder="Software Engineering">
-                    </label>
-    
-                </div>
-                <button class="edit-profile" type="submit">Edit Profile</button>
+                    <div class="profile-info">
+                        <p class="user-name"><strong>User name</strong></p>
+
+                        <label for="email" class="emailad">Email Address
+                            <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+                        </label>
+
+                        <label for="Department" class="dept">Department
+                            <input type="text" id="Department" name="Department" placeholder="Software Engineering">
+                        </label>
+                    </div>
+
+                    <button class="edit-profile" type="submit">Edit Profile</button>
                 </form>
             </div>
         </div>

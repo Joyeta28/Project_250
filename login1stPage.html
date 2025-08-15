@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/login1stPage.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/login1stPage.css">
 </head>
 <body>
-    <div class="selectionPage">
-     <div class="tec">
-                 <img src="img/techhelp.jpg" alt="techhelp" class="techhelp">
-            </div>
-    <h2>Login as  Client or Technician </h2>
-    <div class="button-group">
-    <button class="client"><a href="loginAsClient.html">I’m a client looking
-for tech services.</a></button>
-    <button class="technician"><a href="loginAsTechnician.html">I’m a tech expert and
-         I provide technical services.</a></button>
-         </div>
-     </div>
+  <main class="page">
+    <section class="selectionPage" role="region" aria-labelledby="login-title">
+      <img src="img/techhelp.jpg" alt="TechHelp" class="techhelp" />
+
+      <h2 id="login-title">Log in as Client or Technician</h2>
+      <div class="divider" aria-hidden="true"></div>
+
+      <div class="button-group">
+        <a class="btn btn--primary" href="loginAsClient.html">
+          I’m a client looking for tech services.
+        </a>
+        <a class="btn btn--primary" href="loginAsTechnician.html">
+          I’m a tech expert and I provide technical services.
+        </a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
