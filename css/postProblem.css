@@ -37,7 +37,7 @@
         }
 
         .top-nav .logo img {
-            width: 180px;
+             width: 180px;
             height: 60px;
         }
 
@@ -104,7 +104,6 @@
             color: white;
         }
 
-
         /* Main content */
         .main-content {
             flex: 1;
@@ -123,32 +122,38 @@
             margin-bottom: 20px;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
+        input{
+            height: 40px;
+            width: 300px;
+            margin-left: 20px;
+            
         }
 
-        table th, table td {
-            padding: 12px;
-            border-bottom: 1px solid #ddd;
+
+        .form-row {
+            display: flex;
+            align-items: center; /* vertically align label & input */
+            margin-bottom: 15px;
         }
 
-        table th {
-            background-color: #d9b3ff;
+        .form-row label {
+            width: 200px; /* consistent label width */
+            font-weight: bold;
         }
 
-        .view-btn {
-            padding: 5px 12px;
-            background-color: #9e65db;
-            color: white;
+        .form-row input,
+        .form-row textarea {
+            flex: 1; /* input takes remaining space */
+            margin-left: 20px; /* space between label and box */
+        }
+
+
+        .submit-btn{
+            padding: 10px;
             border: none;
             border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        .view-btn:hover {
-            background-color: #9e86b9;
+            background-color: #9e65db;
+            color: white;
+            display: block;
+            margin: 20px auto;
         }
