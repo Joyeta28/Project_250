@@ -21,7 +21,7 @@ body {
 
 header {
     width: 100%;
-    height: 70px;
+    height: 55px;
     background-image: url('head.png');
     background-size: cover;
     background-position: center;
@@ -101,7 +101,9 @@ header {
     width: 100%;
     margin-bottom: 20px;
 }
-
+form{
+    align-items: center;
+}
 .profile-img img {
     width: 120px;
     height: 120px;
@@ -113,26 +115,29 @@ header {
     margin-top: 20px;
     text-align: center;
     width: 100%;
+    text-decoration: none;
 }
 
 .profile-info p.user-name {
     font-size: 25px; 
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
-.profile-info p {
-    font-size: 20px; 
-    color: #333;
-    margin-bottom: 15px;
+.profile-info .emailad {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
 }
-
+.profile-info .dept{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+}
 .profile-info input {
-    width: 90%;
+    width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 8px 0;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #85c8e7;
     font-size: 16px;
 }
 
@@ -156,7 +161,8 @@ header {
     border-radius: 5px;
     width: auto; 
     margin-top: 20px;
-    display: inline-block;
+    margin: 20px auto 0 auto;
+    display: block;
 }
 
 .edit-profile:hover {
