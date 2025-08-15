@@ -1,77 +1,92 @@
-.techhelp{
-    height: 5vh;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 20px;
-}
-.signUp{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 255, 255);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.techhelp {
+    height: 60px;
+    display: block;
+    margin: 0 auto 20px auto;  
+    border-radius: 12px;    
+}
+
+.tec {
+    background: transparent;  
+}
+
+
+.signUp {
+    font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-.signup, .login{
-    text-decoration: none;
-}
-.sign{
-    background-color: #0f345c;
-    padding: 60px 40px;
-    border-radius: 12px;
-    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
-    max-width: 350px;
-    width: 350px;
-    height: 500px;
-    align-items: center;
-   
-    justify-content: center;
-    
+    background-color: #cce4f7;
 }
 
-.sign h2{
+
+.sign {
+    background-color: #516ed7;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    max-width: 420px;   
+    width: 100%;      
     text-align: center;
-    flex-wrap: 100%;
-    color: #ebeef0;
-    margin-bottom: 20px;
-}
-.para{
-    text-align: center;
-    color: #e6e9eb;
-    margin-bottom: 30px;
-}
-.sign label{
-    display: flex;
-    font-weight: 20;
     color: white;
-    margin-bottom: 30px;
-    gap: 8px;
 }
 
-.sign input[type="email"] , input[type = "password"],input[type = "pass"]{
-     width: 100%;      
-    height: 35px;      
-    box-sizing: border-box; 
+.sign h2 {
+    color: #fff;            
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.para {
+    color: #f1f1f1;      
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.sign label {
+    display: block;
+    color: #fff;               
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+
+.sign input[type="email"],
+.sign input[type="password"],
+.sign input[type="pass"] {
+    width: 100%;
+    height: 35px;
     padding: 5px;
-    margin-bottom: 10px; 
-    border-radius: 5px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .sign input[type="submit"] {
-  display: block;
-  width: 40%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #a5a5f7;
-  border-color: white;
-  min-width: 100px;
-  cursor: pointer;
-  border: none;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2.5em;
+    font-size: 1rem;
+    background-color: #8ab6f9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    font-weight: 600;
 }
-.sign input[type="submit"]:hover{
-    background-color: bisque;
+.sign input[type="submit"]:hover {
+    background-color: #6a9cf4;
 }
-
